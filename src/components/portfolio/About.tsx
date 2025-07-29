@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Target, Lightbulb, Users, Zap } from "lucide-react";
+import { Target, Lightbulb, Users, Zap, FileText } from "lucide-react";
 
 const About = () => {
   const highlights = [
@@ -22,6 +22,11 @@ const About = () => {
       icon: Zap,
       title: "Agile Expertise",
       description: "Proven expertise in Agile methodologies and full project lifecycle management"
+    }
+    {
+      icon: FileText,
+      title: "Develoment Experience",
+      description: "Hands-on development experience across the full stack, working with technologies like PHP, Laravel, JavaScript, SQL, HTML, and CSS to build scalable, user-focused web applications and backend systems."
     }
   ];
 
