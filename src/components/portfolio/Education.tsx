@@ -44,14 +44,14 @@ const Education = () => {
       title: "Scrum Fundamentals",
       platform: "Academy Europe",
       date: "Aug 2023",
-      type: "Agile Methodology",
+      type: "Agile Methodology"
     },
     {
       title: "Agile Project Management",
       platform: "Academy Europe",
       date: "Aug 2023",
-      type: "Project Management",
-    },
+      type: "Project Management"
+    }
   ];
 
   const education = [
