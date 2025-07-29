@@ -83,11 +83,11 @@ const Footer = () => {
               </div>
 
               {/* Made with love */}
-              <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+{/*               <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
                 <span>Made with</span>
                 <Heart className="w-4 h-4 text-accent fill-current" />
                 <span>in Mumbai</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
