@@ -159,9 +159,16 @@ const Education = () => {
                   <Card key={index} className="p-4 card-gradient shadow-custom hover:shadow-lg transition-all duration-300 group">
                     <div className="flex items-center justify-between">
                       <div className="flex-1">
-                        <h4 className="font-semibold text-primary mb-1">
+                        <a 
+                            href={cert.link}
+                            target={contact.link.startsWith('http') ? '_blank' : undefined}
+                            rel={contact.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                            className="text-accent hover:text-accent/80 transition-colors font-medium"
+                          >
+                          <h4 className="font-semibold text-primary mb-1">
                           {cert.title}
-                        </h4>
+                          </h4>
+                        </a>
                         <p className="text-accent text-sm font-medium mb-1">
                           {cert.platform}
                         </p>
