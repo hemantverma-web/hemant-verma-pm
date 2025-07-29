@@ -90,9 +90,6 @@ const Contact = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Ready to discuss your next project? I'm always open to exploring new opportunities 
               and collaborations. Let's build something amazing together!
-               I'm currently open to new opportunities in project management, product management, 
-              and team leadership roles. Whether you have a project to discuss, want to explore 
-              collaboration, or just want to connect professionally, I'd love to hear from you.
             </p>
           </div>
 
