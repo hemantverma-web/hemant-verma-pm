@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useState } from "react";
 import { GraduationCap, Award, Calendar, BookOpen, Trophy } from "lucide-react";
 
 const Education = () => {
@@ -8,31 +9,43 @@ const Education = () => {
       title: "PMP Training",
       platform: "Simplilearn",
       date: "Oct 2023",
-      type: "Professional Certification"
+      type: "Professional Certification",
+      link: "https://simpli-web.app.link/e/dvLrKzSQPDb"
     },
     {
       title: "Product Management",
       platform: "Great Learning",
       date: "Sep 2023",
-      type: "Professional Certification"
+      type: "Professional Certification",
+      link: "https://verify.mygreatlearning.com/WUMEMYJW"
+    },
+    {
+      title: "Project Management",
+      platform: "Great Learning",
+      date: "Sep 2023",
+      type: "Professional Certification",
+      link: "https://verify.mygreatlearning.com/WUMEMYJW"
     },
     {
       title: "Scrum Fundamentals",
       platform: "Academy Europe",
       date: "Aug 2023",
-      type: "Agile Methodology"
+      type: "Agile Methodology",
+      link: "https://www.academyeurope.org/wp-content/uploads/learn-press-cert/584f0456255da1ed760556de73635c50.png?fbclid=IwAR20a6ttvQG3icS9oZKOA0m0Rt8NbW_tkndvrbhJfZ-F5yJhKGJzBrGcPQQ"
     },
     {
       title: "Agile Project Management",
       platform: "Academy Europe",
       date: "Aug 2023",
-      type: "Project Management"
+      type: "Project Management",
+      link: "https://www.academyeurope.org/wp-content/uploads/learn-press-cert/6ca9507e7124fa72a7e54d4039ebd9d8.png?fbclid=IwAR1yIrJBdtY-ecid4HSEkn5qmTnEsfR254XFjq8zcS_cBpH8vPIgZsvzXmE"
     },
     {
-      title: "JIRA Training",
+      title: "Learn JIRA with real-world examples (+Confluence bonus)",
       platform: "Udemy",
       date: "March 2023",
-      type: "Tool Certification"
+      type: "Tool Certification",
+      link: "https://ude.my/UC-abb005d1-6ed8-4e71-9460-8c7c0efe212c"
     }
   ];
 
@@ -66,7 +79,7 @@ const Education = () => {
       title: "Student Council Voting App",
       description: "Web-based transparent voting system implemented at NMITD",
       tech: ["Web Development", "Database Management", "Security"],
-      impact: "Used by entire college for democratic student elections"
+      impact: "Used by Navinchandra Mehta Institute of Technology and Development for student elections"
     },
     {
       title: "Roobaroo Intercollegiate Event",
