@@ -10,10 +10,15 @@ const Experience = () => {
       period: "06/2024 – Present",
       location: "Mumbai",
       highlights: [
-        "Managing Unify products (Association Management, Leads, Events)",
-        "Leading 14+ cross-functional team members",
+        "Managing Unify products (Association Management System, Leads, Events)",
+        "Overseeing product implementation for clients, defining delivery plans", 
+        "Managing service-based clients for custom website and application development",
+        "Leading a team of 14 professionals, including developers, quality engineers, front-end developers, Figma designers, and the DevOps team",
         "Delivered projects for Retail Association of India, Young Jain Professionals, Arkansans Hospitality, Mumbai Sabha",
-        "Created BRDs, FRDs, Gantt charts, wireframes, MIS reports"
+        "Designing wireframes and UX guidelines for the product development team",
+        "Generating MIS reports and project progress reports for internal tracking and decision-making",
+        "Collaborating with cross-functional teams, including sales and marketing, to drive product success",
+        "Defining product/project scope, creating Scope Documents, BRDs, and FRDs, and developing Gantt charts to track project progress"
       ],
       current: true
     },
@@ -23,10 +28,11 @@ const Experience = () => {
       period: "08/2022 – 04/2024",
       location: "Mumbai",
       highlights: [
-        "Managed 25+ client projects across industries (Boat, Croma, Viacom18, Cars24)",
-        "Led 20-member team, created comprehensive documentation (BRD, Scope, UAT)",
-        "Oversaw client communication, risk mitigation, and agile delivery",
-        "Implemented process improvements that increased delivery efficiency by 30%"
+        "Managed 30+ client projects across industries",
+        "Gathering requirements from clients and creating project documentation such as BRD, Scope Document, and Road Map Documents",
+        "Leading a team of 20 and managing their day-to-day activities to ensure project success",
+        "Delivering projects on time and meeting quality standards",
+        "Performing UAT testing and creating UAT reports to ensure that projects meet client requirements and are ready for deployment"
       ],
       current: false
     },
@@ -36,23 +42,26 @@ const Experience = () => {
       period: "02/2022 – 08/2022",
       location: "Mumbai",
       highlights: [
-        "Managed 4 projects with 12+ team members",
-        "Created comprehensive roadmaps and user stories",
-        "Conducted manual testing and UX research",
-        "Facilitated stakeholder communication and requirement gathering"
+        "Utilized skills in stakeholder management, problem-solving, leadership, communication, and Agile methodologies as a project manager",
+        "Gathered requirements from users, and created user stories, business requirement documents, and road map documents to facilitate project planning and execution",
+        "Performed sanity and smoke testing of applications, and verified and validated designs and prototypes to ensure project deliverables met expected quality standards",
+        "Managed 4-5 projects simultaneously with over 12 team members under my supervision, keeping the projects within budget and delivering high-quality results",
+        "Proficient in manual testing, UX research, marketing strategy, and client relations, contributing to the success of projects through effective project team management",
+        "Ensured project milestones were met, risks were mitigated, and issues were resolved promptly through leadership and coordination"
       ],
       current: false
     },
     {
-      title: "Software Developer → Team Lead",
+      title: "Software Developer Promoted Team Lead",
       company: "ADOR Infotech",
       period: "06/2020 – 12/2021",
       location: "Mumbai",
       highlights: [
         "Promoted to Team Lead role within 12 months",
-        "Worked on comprehensive hotel management system",
-        "Led development team of 5+ developers",
-        "Implemented coding standards and development processes"
+        "Worked on 2 projects (Activation Plugin, Ador Hotel Management System)",
+        "Managing Team of Developers. Project Planning, Creating SRS, and Meeting both technical and customer needs",
+        "Implemented coding standards and development processes",
+        "Designing Database, UI designing & Server Management"
       ],
       current: false
     },
@@ -146,7 +155,7 @@ const Experience = () => {
                       <div className="mt-6 pt-4 border-t border-border">
                         <div className="flex items-center gap-2 text-sm text-accent font-medium">
                           <Trophy className="w-4 h-4" />
-                          Key Clients: Retail Association of India, Young Jain Professionals, Arkansans Hospitality
+                          Key Clients: Retail Association of India, Young Jain Professionals, Arkansans Hospitality, Petfelix, Indie
                         </div>
                       </div>
                     )}
@@ -155,7 +164,7 @@ const Experience = () => {
                       <div className="mt-6 pt-4 border-t border-border">
                         <div className="flex items-center gap-2 text-sm text-accent font-medium">
                           <Users className="w-4 h-4" />
-                          Notable Clients: Boat, Croma, Viacom18, Cars24
+                          Notable Clients: Gameskraft, Cars24, Beardo, Ixigo, Viacom18, Livpure Smart, Keventers, Croma, Repro Books, Mcaffeine & The Belgian Waffle.
                         </div>
                       </div>
                     )}
