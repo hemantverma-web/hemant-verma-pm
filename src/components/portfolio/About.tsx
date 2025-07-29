@@ -55,17 +55,12 @@ const About = () => {
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
                   Currently leading end-to-end product deliveries for Unify across multiple association and service clients, managing a portfolio of 
-                 <span className="text-primary font-semibold"> 9+ accounts while overseeing a cross-functional team of 14+ professionals. </span>
+                 <span className="text-primary font-semibold"> 9+ accounts while overseeing a cross-functional team of 14+ professionals </span>
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                  Previously handled <span className="text-primary font-semibold"> 30+ client projects at Cointab</span>, delivering solutions for high-impact consumer and enterprise brands across diverse sectors
-                </p>
-
-                <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                  Skilled in BRD/FRD creation, Gantt chart tracking, AI/UX wireframes, MIS reporting, and UAT. 
-                  Strong collaborator with Sales, Marketing, and Tech teams. 
-                  Recognized for sharp communication, structured delivery, and product improvement
+                  Skilled in BRD/FRD creation, Gantt chart tracking, UI/UX wireframes, MIS reporting, and UAT. 
+                  Strong collaborator with Sales, Marketing, and Tech teams
                 </p>
                 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
