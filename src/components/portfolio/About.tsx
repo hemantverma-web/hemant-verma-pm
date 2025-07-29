@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: Lightbulb,
       title: "Innovation Focus",
-      description: "Leveraging AI tools like ChatGPT and Lovable.dev to boost productivity and efficiency"
+      description: "Leveraging AI tools like ChatGPT and Lovable.ai to boost productivity and efficiency"
     },
     {
       icon: Zap,
@@ -50,7 +50,7 @@ const About = () => {
                 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
                   Known for <span className="text-accent font-semibold">structured delivery</span>, 
-                  stakeholder alignment, and using AI tools like ChatGPT and Lovable.dev to boost productivity. 
+                  stakeholder alignment, and using AI tools like ChatGPT and Lovable.ai to boost productivity. 
                   Proven expertise across full project lifecycles, Agile execution, and cross-functional leadership.
                 </p>
               </Card>
