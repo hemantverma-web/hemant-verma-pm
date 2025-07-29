@@ -90,24 +90,15 @@ const Contact = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Ready to discuss your next project? I'm always open to exploring new opportunities 
               and collaborations. Let's build something amazing together!
+               I'm currently open to new opportunities in project management, product management, 
+              and team leadership roles. Whether you have a project to discuss, want to explore 
+              collaboration, or just want to connect professionally, I'd love to hear from you.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div>
             {/* Contact Information */}
             <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
-                  <MessageCircle className="w-7 h-7 text-accent" />
-                  Get In Touch
-                </h3>
-                <p className="text-muted-foreground mb-8 leading-relaxed">
-                  I'm currently open to new opportunities in project management, product management, 
-                  and team leadership roles. Whether you have a project to discuss, want to explore 
-                  collaboration, or just want to connect professionally, I'd love to hear from you.
-                </p>
-              </div>
-
               <div className="space-y-4">
                 {contactInfo.map((contact, index) => (
                   <Card key={index} className="p-4 card-gradient shadow-custom hover:shadow-lg transition-all duration-300 group">
