@@ -161,8 +161,8 @@ const Education = () => {
                       <div className="flex-1">
                         <a 
                             href={cert.link}
-                            target={contact.link.startsWith('http') ? '_blank' : undefined}
-                            rel={contact.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                            target={cert.link.startsWith('http') ? '_blank' : undefined}
+                            rel={cert.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                             className="text-accent hover:text-accent/80 transition-colors font-medium"
                           >
                           <h4 className="font-semibold text-primary mb-1">
