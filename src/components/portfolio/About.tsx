@@ -43,9 +43,20 @@ const About = () => {
             <div className="space-y-6">
               <Card className="p-8 card-gradient shadow-custom">
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  Versatile and results-driven Project Manager with{" "}
+                  Versatile and results-driven Project Manager with {" "} 
                   <span className="text-primary font-semibold">5+ years of experience</span> in 
-                  SaaS product management, client implementations, and custom software delivery.
+                  across SaaS product management, custom software delivery, and client implementations. 
+                </p>
+
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  Currently leading end-to-end product deliveries for Unify across multiple association and service clients, managing a portfolio of 9+ accounts while overseeing a cross-functional team of 14+ professionals. 
+                  Previously handled 30+ client projects at Cointab, delivering solutions for high-impact consumer and enterprise brands across diverse sectors
+                </p>
+
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  Skilled in BRD/FRD creation, Gantt chart tracking, AI/UX wireframes, MIS reporting, and UAT. 
+                  Strong collaborator with Sales, Marketing, and Tech teams. 
+                  Recognized for sharp communication, structured delivery, and product improvement
                 </p>
                 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
