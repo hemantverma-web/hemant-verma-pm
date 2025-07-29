@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: FileText,
       title: "Develoment Experience",
-      description: "Hands-on development experience across the full stack, working with technologies like PHP, Laravel, JavaScript, SQL, HTML, and CSS to build scalable, user-focused web applications and backend systems."
+      description: "Hands-on development experience across the full stack, working with technologies like PHP, Laravel, JavaScript, SQL, HTML"
     }
   ];
 
@@ -50,17 +50,17 @@ const About = () => {
                 <p className="text-lg leading-relaxed text-muted-foreground">
                   Versatile and results-driven Project Manager with {" "} 
                   <span className="text-primary font-semibold">5+ years of experience</span> in 
-                  across SaaS product management, custom software delivery, and client implementations. 
+                  across SaaS product management, custom software delivery, and client implementations.
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
                   Currently leading end-to-end product deliveries for Unify across multiple association and service clients, managing a portfolio of 
-                 <span className="text-primary font-semibold"> 9+ accounts while overseeing a cross-functional team of 14+ professionals </span>
+                 <span className="text-primary font-semibold"> 9+ accounts while overseeing a cross-functional team of 14+ professionals.</span>
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                  Skilled in BRD/FRD creation, Gantt chart tracking, UI/UX wireframes, MIS reporting, and UAT. 
-                  Strong collaborator with Sales, Marketing, and Tech teams
+                  Skilled in BRD/FRD creation, Gantt chart tracking, UI/UX wireframes, MIS reporting, and UAT.
+                  Strong collaborator with Sales, Marketing, and Tech teams.
                 </p>
                 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
