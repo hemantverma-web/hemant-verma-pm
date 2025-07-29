@@ -21,7 +21,7 @@ const Skills = () => {
     {
       icon: FileText,
       title: "Documentation & Analysis",
-      skills: ["BRD/FRD Creation", "Wireframing", "User Stories", "Requirements Analysis", "Process Documentation", "MIS Reporting"]
+      skills: ["BRD/FRD Creation", "Wireframing", "User Stories", "Requirements Analysis", "MIS Reporting"]
     },
     {
       icon: Users,
@@ -31,7 +31,7 @@ const Skills = () => {
     {
       icon: BarChart3,
       title: "Product & Strategy",
-      skills: ["Product Planning", "Market Analysis", "Roadmap Development", "Feature Prioritization", "User Research", "Competitive Analysis"]
+      skills: ["Product Planning", "Roadmap Development", "Feature Prioritization", "User Research", "Competitive Analysis"]
     },
     {
       icon: Zap,
@@ -41,23 +41,22 @@ const Skills = () => {
     {
       icon: Brain,
       title: "AI & Productivity Tools",
-      skills: ["ChatGPT", "Lovable.ai", "Process Automation", "AI-driven Solutions", "Productivity Enhancement", "Tool Integration"]
+      skills: ["ChatGPT", "Lovable.dev", "Productivity Enhancement"]
     }
   ];
 
   const tools = [
     { name: "Jira", category: "Project Management" },
+    { name: "Redmine", category: "Project Management"},
+    { name: "Trello", category: "Project Management" },
     { name: "Microsoft Office", category: "Productivity" },
-    { name: "Figma", category: "Design" },
+    { name: "Google Docs", category: "Productivity" },
+    { name: "Excel", category: "Analytics" },
+    { name: "PowerPoint", category: "Presentation" },
     { name: "Gantt Charts", category: "Planning" },
     { name: "ChatGPT", category: "AI Tools" },
     { name: "Lovable.ai", category: "AI Tools" },
-    { name: "Confluence", category: "Documentation" },
-    { name: "Slack", category: "Communication" },
-    { name: "Trello", category: "Project Management" },
-    { name: "Excel", category: "Analytics" },
-    { name: "PowerPoint", category: "Presentation" },
-    { name: "Teams", category: "Communication" }
+    { name: "Teams", category: "Communication" }  
   ];
 
   return (
