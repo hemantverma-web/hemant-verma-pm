@@ -22,7 +22,7 @@ const About = () => {
       icon: Zap,
       title: "Agile Expertise",
       description: "Proven expertise in Agile methodologies and full project lifecycle management"
-    }
+    },
     {
       icon: FileText,
       title: "Develoment Experience",
