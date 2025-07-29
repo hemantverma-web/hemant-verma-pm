@@ -49,8 +49,12 @@ const About = () => {
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
-                  Currently leading end-to-end product deliveries for Unify across multiple association and service clients, managing a portfolio of 9+ accounts while overseeing a cross-functional team of 14+ professionals. 
-                  Previously handled 30+ client projects at Cointab, delivering solutions for high-impact consumer and enterprise brands across diverse sectors
+                  Currently leading end-to-end product deliveries for Unify across multiple association and service clients, managing a portfolio of 
+                 <span className="text-primary font-semibold"> 9+ accounts while overseeing a cross-functional team of 14+ professionals. </span>
+                </p>
+
+                <p className="text-lg leading-relaxed text-muted-foreground mt-4">
+                  Previously handled <span className="text-primary font-semibold"> 30+ client projects at Cointab</span>, delivering solutions for high-impact consumer and enterprise brands across diverse sectors
                 </p>
 
                 <p className="text-lg leading-relaxed text-muted-foreground mt-4">
