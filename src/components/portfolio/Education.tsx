@@ -72,7 +72,7 @@ const Education = () => {
       degree: "Bachelor of Science in Computer Science",
       institution: "Patkar Varde College",
       year: "2019",
-      grade: "62.2%",
+      grade: "62.2%, SGPA: 7.51",
       highlights: [
         "Foundation in Computer Science fundamentals",
         "Focused on software development and programming",
