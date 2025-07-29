@@ -27,18 +27,11 @@ const Education = () => {
       link: "https://verify.mygreatlearning.com/WUMEMYJW"
     },
     {
-      title: "Scrum Fundamentals",
-      platform: "Academy Europe",
-      date: "Aug 2023",
-      type: "Agile Methodology",
-      link: "https://www.academyeurope.org/wp-content/uploads/learn-press-cert/584f0456255da1ed760556de73635c50.png?fbclid=IwAR20a6ttvQG3icS9oZKOA0m0Rt8NbW_tkndvrbhJfZ-F5yJhKGJzBrGcPQQ"
-    },
-    {
-      title: "Agile Project Management",
-      platform: "Academy Europe",
-      date: "Aug 2023",
-      type: "Project Management",
-      link: "https://www.academyeurope.org/wp-content/uploads/learn-press-cert/6ca9507e7124fa72a7e54d4039ebd9d8.png?fbclid=IwAR1yIrJBdtY-ecid4HSEkn5qmTnEsfR254XFjq8zcS_cBpH8vPIgZsvzXmE"
+      title: "Complete Agile Scrum Master in 7 days + 5 EXTRA courses",
+      platform: "Udemy",
+      date: "March 2023",
+      type: "Professional Certification",
+      link: "https://www.udemy.com/certificate/UC-e35ff97c-b5ca-4bbb-80b2-f5b70a65d4d5/"
     },
     {
       title: "Learn JIRA with real-world examples (+Confluence bonus)",
@@ -46,7 +39,19 @@ const Education = () => {
       date: "March 2023",
       type: "Tool Certification",
       link: "https://ude.my/UC-abb005d1-6ed8-4e71-9460-8c7c0efe212c"
-    }
+    },
+    {
+      title: "Scrum Fundamentals",
+      platform: "Academy Europe",
+      date: "Aug 2023",
+      type: "Agile Methodology",
+    },
+    {
+      title: "Agile Project Management",
+      platform: "Academy Europe",
+      date: "Aug 2023",
+      type: "Project Management",
+    },
   ];
 
   const education = [
