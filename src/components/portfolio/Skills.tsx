@@ -26,7 +26,7 @@ const Skills = () => {
     {
       icon: Users,
       title: "Client & Team Management",
-      skills: ["Client Onboarding", "Team Leadership", "Cross-functional Coordination", "Vendor Management", "Communication", "Conflict Resolution"]
+      skills: ["Client Onboarding", "Team Leadership", "Cross-functional Coordination", "Communication", "Conflict Resolution"]
     },
     {
       icon: BarChart3,
@@ -36,7 +36,7 @@ const Skills = () => {
     {
       icon: Zap,
       title: "Quality & Testing",
-      skills: ["QA/UAT", "Manual Testing", "Test Planning", "Bug Tracking", "Quality Assurance", "User Acceptance Testing"]
+      skills: ["Manual Testing", "Test Planning", "Bug Tracking", "Quality Assurance", "User Acceptance Testing"]
     },
     {
       icon: Brain,
