@@ -42,6 +42,15 @@ export function createResponsesCall(
   return {
     result,
     response: () =>
-      withLovableAiGatewayRunIdHeader(result.toUIMessageStreamResponse({ sendReasoning: true }), runIdFetch),
+      withLovableAiGatewayRunIdHeader(
+        result.toUIMessageStreamResponse({
+          sendReasoning: true,
+          onError: (error) => {
+            console.error("stream error:", error);
+            return error instanceof Error ? error.message : "stream error";
+          },
+        }),
+        runIdFetch,
+      ),
   };
 }
