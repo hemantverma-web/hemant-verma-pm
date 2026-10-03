@@ -48,20 +48,18 @@ Deno.serve(async (req) => {
       });
     }
 
-    const modelMessages = [
-      { role: "system" as const, content: SYSTEM_PROMPT },
-      ...messages
-        .filter((m: { role?: string; content?: unknown }) =>
-          (m.role === "user" || m.role === "assistant") && typeof m.content === "string"
-        )
-        .slice(-20)
-        .map((m: { role: string; content: string }) => ({ role: m.role as "user" | "assistant", content: m.content })),
-    ];
+    const modelMessages = messages
+      .filter((m: { role?: string; content?: unknown }) =>
+        (m.role === "user" || m.role === "assistant") && typeof m.content === "string"
+      )
+      .slice(-20)
+      .map((m: { role: string; content: string }) => ({ role: m.role as "user" | "assistant", content: m.content }));
 
     const call = createResponsesCall(
       req,
       { baseURL: "https://ai.gateway.lovable.dev/v1", apiKey, model: "openai/gpt-6-astra" },
       modelMessages,
+      SYSTEM_PROMPT,
     );
 
     const response = call.response();
