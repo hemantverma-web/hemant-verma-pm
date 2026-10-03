@@ -7,6 +7,7 @@ import Skills from "@/components/portfolio/Skills";
 import Education from "@/components/portfolio/Education";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
+import AIChatWidget from "@/components/portfolio/AIChatWidget";
 
 const Index = () => {
   useEffect(() => {
@@ -32,6 +33,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <AIChatWidget />
     </div>
   );
 };
