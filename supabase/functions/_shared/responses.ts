@@ -25,7 +25,6 @@ export function createResponsesCall(
     model: provider.responses(config.model),
     messages,
     ...(system ? { system } : {}),
-    abortSignal: request.signal,
     providerOptions: {
       openai: {
         store: false,
